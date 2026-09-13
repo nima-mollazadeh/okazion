@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" preserveAspectRatio="xMidYMid meet"><rect width="800" height="800" fill="#EEF3FE"/>
+    <g transform="translate(420 470) scale(0.85) translate(-400 -400)">
+    <ellipse cx="400" cy="662" rx="185" ry="20" fill="#000000" opacity="0.25"/>
+    <ellipse cx="400" cy="648" rx="215" ry="30" fill="#FAFAFA"/><ellipse cx="400" cy="644" rx="175" ry="22" fill="#ECECEE"/>
+    <circle cx="575" cy="448" r="52" fill="none" stroke="#0066FF" stroke-width="32"/>
+    <clipPath id="mugClip"><path d="M265 320 H535 V570 Q535 625 480 625 H320 Q265 625 265 570 Z"/></clipPath>
+    <path d="M265 320 H535 V570 Q535 625 480 625 H320 Q265 625 265 570 Z" fill="#0066FF"/>
+    
+    <rect x="292" y="360" width="22" height="168" rx="11" fill="#FFFFFF" opacity=".28"/>
+    <ellipse cx="400" cy="320" rx="135" ry="26" fill="#0066FF"/>
+    <ellipse cx="400" cy="320" rx="110" ry="17" fill="#0B0C10"/>
+    
+  <path d="M 352 288 c -14 -24 14 -42 0 -68" stroke="#FF9A55" stroke-width="9" fill="none" stroke-linecap="round" opacity=".65"/>
+  <path d="M 394 294 c -12 -20 12 -36 0 -58" stroke="#FF9A55" stroke-width="8" fill="none" stroke-linecap="round" opacity=".3"/></g>
+    <rect x="150" y="560" width="180" height="34" rx="8" fill="#FF8A3D" opacity=".8"/>
+    <rect x="170" y="526" width="180" height="34" rx="8" fill="#FFD9B8"/>
+    
+  <circle cx="620" cy="260" r="9" fill="#0066FF" opacity="0.55"/>
+  <circle cx="650" cy="278" r="6.5" fill="#0066FF" opacity="0.44000000000000006"/>
+  <circle cx="632" cy="300" r="5" fill="#0066FF" opacity="0.33"/></svg>

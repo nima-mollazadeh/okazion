@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" preserveAspectRatio="xMidYMid meet">
+    
+    <ellipse cx="400" cy="650" rx="175" ry="18" fill="#000000" opacity="0.25"/>
+    <rect x="250" y="380" width="300" height="240" rx="18" fill="#0066FF"/>
+    <rect x="250" y="380" width="300" height="240" rx="18" fill="#FFFFFF" opacity=".06"/>
+    <rect x="230" y="336" width="340" height="72" rx="18" fill="#0B0C10"/>
+    <rect x="372" y="336" width="56" height="312" fill="#FAFAFA"/>
+    <ellipse cx="352" cy="328" rx="46" ry="20" fill="#FAFAFA" transform="rotate(-24 352 328)"/>
+    <ellipse cx="448" cy="328" rx="46" ry="20" fill="#FAFAFA" transform="rotate(24 448 328)"/>
+    <circle cx="400" cy="332" r="15" fill="#ECECEE"/>
+    <path d="M 295 254.7 Q 298.15 266.85 310.3 270 Q 298.15 273.15 295 285.3 Q 291.85 273.15 279.7 270 Q 291.85 266.85 295 254.7 Z" fill="#FF8A3D"/>
+    <path d="M 520 298.1 Q 522.45 307.55 531.9 310 Q 522.45 312.45 520 321.9 Q 517.55 312.45 508.1 310 Q 517.55 307.55 520 298.1 Z" fill="#FF8A3D"/>
+    <path d="M 545 241.5 Q 546.75 248.25 553.5 250 Q 546.75 251.75 545 258.5 Q 543.25 251.75 536.5 250 Q 543.25 248.25 545 241.5 Z" fill="#FF8A3D"/>
+    <g transform="rotate(10 560 430)">
+      <rect x="520" y="360" width="88" height="128" rx="14" fill="#FAFAFA" stroke="#E7E8EC" stroke-width="3"/>
+      <circle cx="518" cy="372" r="5" fill="none" stroke="#FF8A3D" stroke-width="3"/>
+      <path d="M 564 460 C 538.7 441.6 536.4 402.5 564 386.4 C 591.6 402.5 589.3 441.6 564 460 Z" fill="#FF8A3D" />
+    </g></svg>
