@@ -168,7 +168,7 @@ export default function Navbar() {
             </button>
           )}
 
-          <Link to="/account?tab=favorites" aria-label="حساب کاربری" className={iconBtn}>
+          <Link to="/account" aria-label="حساب کاربری" className={iconBtn}>
             <User size={20} strokeWidth={1.9} />
           </Link>
 

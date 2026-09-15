@@ -1,40 +1,40 @@
 export const categories = [
-  { slug: 'mug', name: 'ماگ', image: '/images/cat-mug.svg', tint: 'bg-mist' },
+  { slug: 'mug', name: 'ماگ', image: '/images/categories/cat-mug.svg', tint: 'bg-mist' },
   {
     slug: 'accessory',
     name: 'اکسسوری',
-    image: '/images/cat-accessory.svg',
+    image: '/images/categories/cat-accessory.svg',
     tint: 'bg-sage/60',
   },
   {
     slug: 'gift',
     name: 'هدیه',
-    image: '/images/cat-gift.svg',
+    image: '/images/categories/cat-gift.svg',
     tint: 'bg-mint/25',
   },
-  { slug: 'decor', name: 'دکور', image: '/images/cat-decor.svg', tint: 'bg-mist' },
+  { slug: 'decor', name: 'دکور', image: '/images/categories/cat-decor.svg', tint: 'bg-mist' },
   {
     slug: 'desk',
     name: 'لوازم رومیزی',
-    image: '/images/cat-desk.svg',
+    image: '/images/categories/cat-desk.svg',
     tint: 'bg-sage/60',
   },
   {
     slug: 'sticker',
     name: 'استیکر',
-    image: '/images/cat-sticker.svg',
+    image: '/images/categories/cat-sticker.svg',
     tint: 'bg-mint/25',
   },
   {
     slug: 'keychain',
     name: 'جاکلیدی',
-    image: '/images/cat-keychain.svg',
+    image: '/images/categories/cat-keychain.svg',
     tint: 'bg-mist',
   },
   {
     slug: 'special',
     name: 'محصولات خاص',
-    image: '/images/cat-special.svg',
+    image: '/images/categories/cat-special.svg',
     tint: 'bg-sage/60',
   },
 ]

@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
+import { setMeta } from '../lib/seo'
 import { Link, useSearchParams } from 'react-router-dom'
 import {
   Heart,
@@ -179,7 +180,7 @@ export default function AccountPage() {
   const { favorites, pushToast } = useShop()
 
   useEffect(() => {
-    document.title = 'حساب کاربری | اکازیون'
+    setMeta({ title: 'حساب کاربری', path: '/account' })
   }, [])
 
   const setTab = (id) => setParams(id === 'orders' ? {} : { tab: id }, { replace: true })
@@ -193,8 +194,9 @@ export default function AccountPage() {
             س
           </span>
           <div className="min-w-0 flex-1">
-            <h1 className="text-lg font-black text-ink md:text-xl">
+            <h1 className="flex flex-wrap items-center gap-2.5 text-lg font-black text-ink md:text-xl">
               کاربر اکازیون
+              <span className="rounded-full bg-mist border border-line px-2.5 py-1 text-[10px] font-bold text-mute">نسخهٔ نمایشی</span>
             </h1>
             <p className="mt-1 text-[12.5px] font-semibold text-mute" dir="ltr">
               ۰۹۱۲ ••• ۱۲۳۴

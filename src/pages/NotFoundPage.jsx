@@ -1,9 +1,10 @@
 import { useEffect } from 'react'
+import { setMeta } from '../lib/seo'
 import Button from '../components/ui/Button'
 
 export default function NotFoundPage() {
   useEffect(() => {
-    document.title = 'صفحه پیدا نشد | اکازیون'
+    setMeta({ title: 'صفحه پیدا نشد', path: location.pathname })
   }, [])
 
   return (

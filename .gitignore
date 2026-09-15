@@ -1,4 +1,24 @@
-﻿node_modules/
+# وابستگی‌ها
+node_modules/
+
+# خروجی بیلد
 dist/
+dist-ssr/
+
+# لاگ‌ها
+*.log
+npm-debug.log*
+
+# محیط و تنظیمات محلی
 .env
 .env.local
+.env.*.local
+
+# فایل‌های سیستم
+.DS_Store
+Thumbs.db
+
+# ادیتور
+.vscode/*
+!.vscode/extensions.json
+.idea/

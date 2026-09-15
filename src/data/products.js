@@ -8,7 +8,7 @@
 export const products = [
   {
     id: 1,
-    slug: 'mug-sabzineh',
+    slug: 'mug-ekazion',
     name: 'ماگ سرامیکی اکازیون',
     brand: 'studio-sabz',
     category: 'mug',
@@ -18,8 +18,8 @@ export const products = [
     rating: 4.8,
     sold: 1240,
     reviewsCount: 86,
-    image: '/images/products/mug-sabzineh.svg',
-    gallery: ['/images/lifestyle-1.svg', '/images/lifestyle-5.svg'],
+    image: '/images/products/mug-ekazion.svg',
+    gallery: ['/images/lifestyle/lifestyle-1.svg', '/images/lifestyle/lifestyle-5.svg'],
     description:
       'ماگ امضای اکازیون با لعاب سبزِ مات و دستهٔ راحت؛ برای چای صبح یا قهوهٔ آخرِ شب. چون لعاب با دست زده می‌شود، هر عدد کمی با بقیه فرق دارد و همین، خاص بودنش است.',
     features: [
@@ -48,7 +48,7 @@ export const products = [
     sold: 862,
     reviewsCount: 54,
     image: '/images/products/mug-minimal-green.svg',
-    gallery: ['/images/lifestyle-4.svg', '/images/lifestyle-2.svg'],
+    gallery: ['/images/lifestyle/lifestyle-4.svg', '/images/lifestyle/lifestyle-2.svg'],
     description:
       'فرم ساده، رنگ آرام. ماگ مینیمال سبز برای کسانی که دوست دارند میزشان هیچ اضافه‌ای نداشته باشد؛ فقط یک نوشیدنی گرم و یک رنگ خوش.',
     features: [
@@ -77,7 +77,7 @@ export const products = [
     sold: 2130,
     reviewsCount: 121,
     image: '/images/products/keychain-wood.svg',
-    gallery: ['/images/lifestyle-6.svg', '/images/lifestyle-3.svg'],
+    gallery: ['/images/lifestyle/lifestyle-6.svg', '/images/lifestyle/lifestyle-3.svg'],
     description:
       'جاکلیدی چوب راش با لبه‌های گرد و حس طبیعی چوب در دست. سبک، مقاوم و با نقش برگِ اکازیون که کم‌کم از تو پیر می‌شود.',
     features: [
@@ -106,7 +106,7 @@ export const products = [
     sold: 3240,
     reviewsCount: 210,
     image: '/images/products/sticker-nature-pack.svg',
-    gallery: ['/images/lifestyle-7.svg', '/images/lifestyle-2.svg'],
+    gallery: ['/images/lifestyle/lifestyle-7.svg', '/images/lifestyle/lifestyle-2.svg'],
     description:
       'دوازده استیکر واترپروف با نقش‌های برگ، قارچ و موجودات کوچک جنگل؛ برای لپ‌تاپ، دفترچه و فلاسک. رنگ‌ها بعد از شست‌وش هم نمی‌روند.',
     features: [
@@ -133,7 +133,7 @@ export const products = [
     sold: 548,
     reviewsCount: 37,
     image: '/images/products/notebook-minimal.svg',
-    gallery: ['/images/lifestyle-2.svg', '/images/lifestyle-5.svg'],
+    gallery: ['/images/lifestyle/lifestyle-2.svg', '/images/lifestyle/lifestyle-5.svg'],
     description:
       'دفترچهٔ خط‌دار با جلد نرم کرم و کاغذ ضخیم که خودکار جوهر گیلد هم از پشتش پیداد نمی‌شود. برای لیست خرید، ایده‌های نیمه‌شب و هر چیز دیگری.',
     features: [
@@ -160,7 +160,7 @@ export const products = [
     sold: 431,
     reviewsCount: 29,
     image: '/images/products/candleholder-ceramic.svg',
-    gallery: ['/images/lifestyle-3.svg', '/images/lifestyle-6.svg'],
+    gallery: ['/images/lifestyle/lifestyle-3.svg', '/images/lifestyle/lifestyle-6.svg'],
     description:
       'جاشمعی کوتاه با بدنهٔ ناهموارِ دست‌ساز که نور شمع را نرم می‌کند. روی کنسول، کنار کتاب‌ها یا لبهٔ وان در یک شب خسته.',
     features: [
@@ -189,7 +189,7 @@ export const products = [
     sold: 984,
     reviewsCount: 66,
     image: '/images/products/bag-fabric.svg',
-    gallery: ['/images/lifestyle-6.svg', '/images/lifestyle-1.svg'],
+    gallery: ['/images/lifestyle/lifestyle-6.svg', '/images/lifestyle/lifestyle-1.svg'],
     description:
       'کیف پارچه‌ای ضخیم با دوخت تقویت‌شده و آستر نخی؛ برای کتاب، لپ‌تاپ کوچک و خرید روزمره. جغجغه ندارد، فقط یک جیب داخلی با دکمهٔ چوبی.',
     features: [
@@ -216,7 +216,7 @@ export const products = [
     sold: 322,
     reviewsCount: 21,
     image: '/images/products/desk-accessory-set.svg',
-    gallery: ['/images/lifestyle-2.svg', '/images/lifestyle-4.svg'],
+    gallery: ['/images/lifestyle/lifestyle-2.svg', '/images/lifestyle/lifestyle-4.svg'],
     description:
       'ست سه‌تایی رومیزی شامل جامدادی، جای خودکار و زیرلیوانی هم‌خانواده؛ تا میز کارت مثل یک جملهٔ کامل باشد، نه چند کلمهٔ پراکنده.',
     features: [
@@ -244,7 +244,7 @@ export const products = [
     sold: 156,
     reviewsCount: 12,
     image: '/images/products/mug-leaf.svg',
-    gallery: ['/images/lifestyle-5.svg', '/images/lifestyle-1.svg'],
+    gallery: ['/images/lifestyle/lifestyle-5.svg', '/images/lifestyle/lifestyle-1.svg'],
     description:
       'نقش برگ با لعاب برجسته روی بدنهٔ ماگ؛ هر بار که دستت رویش می‌خورد، یک لحظه کوتاه به جنگل فکر می‌کنی. عرضه در سری محدود.',
     features: [
@@ -273,7 +273,7 @@ export const products = [
     sold: 98,
     reviewsCount: 8,
     image: '/images/products/mug-dotted.svg',
-    gallery: ['/images/lifestyle-1.svg', '/images/lifestyle-4.svg'],
+    gallery: ['/images/lifestyle/lifestyle-1.svg', '/images/lifestyle/lifestyle-4.svg'],
     description:
       'خال‌های ریز سبز روی زمینهٔ کرم؛ شاید شبیه تخم‌مرغ چوبی باشد اما از قهوه‌تان خوشش می‌آید. جفت‌وجور با ماگ مینیمال سبز.',
     features: [
@@ -303,7 +303,7 @@ export const products = [
     sold: 612,
     reviewsCount: 73,
     image: '/images/products/mug-duo-set.svg',
-    gallery: ['/images/lifestyle-7.svg', '/images/lifestyle-3.svg'],
+    gallery: ['/images/lifestyle/lifestyle-7.svg', '/images/lifestyle/lifestyle-3.svg'],
     description:
       'دو ماگ هم‌شکل با لعاب سبز و کرم، در جعبهٔ هدیهٔ اکازیون با کارت دست‌نویس. برای شروعِ یک صبح مشترک یا پایان یک مهمانی خوب.',
     features: [
@@ -331,7 +331,7 @@ export const products = [
     sold: 87,
     reviewsCount: 6,
     image: '/images/products/keychain-brass.svg',
-    gallery: ['/images/lifestyle-6.svg', '/images/lifestyle-2.svg'],
+    gallery: ['/images/lifestyle/lifestyle-6.svg', '/images/lifestyle/lifestyle-2.svg'],
     description:
       'برنجِ پرداخت‌شده با فرم هندسی ساده؛ سنگین‌تر از آن است که گم شود و ظریف‌تر از آن که جلب توجه کند. با گذر زمان پتینه می‌شود.',
     features: [
@@ -359,7 +359,7 @@ export const products = [
     sold: 410,
     reviewsCount: 28,
     image: '/images/products/sticker-doodle-pack.svg',
-    gallery: ['/images/lifestyle-7.svg', '/images/lifestyle-5.svg'],
+    gallery: ['/images/lifestyle/lifestyle-7.svg', '/images/lifestyle/lifestyle-5.svg'],
     description:
       'پک دودل با خط‌های دست‌آزاد و موجودات کوچک باحال؛ برای آن دسته از دفترچه‌ها که هنوز پرو هستند. مات و بی‌جلوه، مثل ایده‌های خوب.',
     features: [
@@ -386,7 +386,7 @@ export const products = [
     sold: 390,
     reviewsCount: 24,
     image: '/images/products/notebook-pocket.svg',
-    gallery: ['/images/lifestyle-2.svg', '/images/lifestyle-7.svg'],
+    gallery: ['/images/lifestyle/lifestyle-2.svg', '/images/lifestyle/lifestyle-7.svg'],
     description:
       'هم‌اندازهٔ کف دست؛ برای فهرست کارها، شماره‌های تلفن و جمله‌هایی که بعداً باید یادت باشند. جلد سخت و بند کشی رنگ سبز.',
     features: [
@@ -414,7 +414,7 @@ export const products = [
     sold: 1240,
     reviewsCount: 82,
     image: '/images/products/pen-holder.svg',
-    gallery: ['/images/lifestyle-4.svg', '/images/lifestyle-2.svg'],
+    gallery: ['/images/lifestyle/lifestyle-4.svg', '/images/lifestyle/lifestyle-2.svg'],
     description:
       'جامدادی چوب گرد با شیارهای تراش‌خورده؛ جای خودکار، موبایل و آن همه چیز کوچکی که همیشه گم می‌شود. پایهٔ نمدی، میز را نمی‌خراشد.',
     features: [
@@ -442,7 +442,7 @@ export const products = [
     sold: 730,
     reviewsCount: 47,
     image: '/images/products/coaster-set.svg',
-    gallery: ['/images/lifestyle-4.svg', '/images/lifestyle-1.svg'],
+    gallery: ['/images/lifestyle/lifestyle-4.svg', '/images/lifestyle/lifestyle-1.svg'],
     description:
       'چهار زیرلیوانی چوبی با پایهٔ نمدی و جای‌گذار چوبی؛ تا حلقه‌های آب روی میزت، خاطره نشوند. روغن‌خورده و ضدِ لکه.',
     features: [
@@ -470,7 +470,7 @@ export const products = [
     sold: 143,
     reviewsCount: 11,
     image: '/images/products/planter-mini.svg',
-    gallery: ['/images/lifestyle-3.svg', '/images/lifestyle-5.svg'],
+    gallery: ['/images/lifestyle/lifestyle-3.svg', '/images/lifestyle/lifestyle-5.svg'],
     description:
       'گلدان کوچک ساکولنت با سوراخ تخلیه و نعل‌ککی؛ چون هر میز کاری به یک موجود زندهٔ بی‌ادعا نیاز دارد. با پیچ خاک اهدایی.',
     features: [
@@ -498,7 +498,7 @@ export const products = [
     sold: 505,
     reviewsCount: 41,
     image: '/images/products/vase-matte.svg',
-    gallery: ['/images/lifestyle-3.svg', '/images/lifestyle-6.svg'],
+    gallery: ['/images/lifestyle/lifestyle-3.svg', '/images/lifestyle/lifestyle-6.svg'],
     description:
       'واز با فرم پیچیده و لعاب مات سبز تیره؛ حتی وقتی خالی است، روی میز یک تکه مجسمه است. برای شاخه‌های خشک هم عالی.',
     features: [
@@ -526,7 +526,7 @@ export const products = [
     sold: 210,
     reviewsCount: 17,
     image: '/images/products/wall-art-leaf.svg',
-    gallery: ['/images/lifestyle-3.svg', '/images/lifestyle-2.svg'],
+    gallery: ['/images/lifestyle/lifestyle-3.svg', '/images/lifestyle/lifestyle-2.svg'],
     description:
       'چاپ محدود طرح برگ روی کاغذ آبرنگی ضخیم با قاب چوبی بلوط؛ امضادار و شماره‌گذاری‌شده. فقط ۱۰۰ عدد در کل جهان.',
     features: [
@@ -553,7 +553,7 @@ export const products = [
     sold: 180,
     reviewsCount: 22,
     image: '/images/products/tea-set-ceramic.svg',
-    gallery: ['/images/lifestyle-1.svg', '/images/lifestyle-7.svg'],
+    gallery: ['/images/lifestyle/lifestyle-1.svg', '/images/lifestyle/lifestyle-7.svg'],
     description:
       'شش پیل‌چای و قوری کوچک با لعاب کرمِ شیرین؛ برای مهمانی‌هایی که مهمان تا آخرش می‌ماند. تخت‌پایه و بی‌دَم، مثل چای خوب.',
     features: [
@@ -573,7 +573,7 @@ export const products = [
     id: 21,
     slug: 'gift-box-cozy',
     name: 'باکس هدیه «آرامش»',
-    brand: 'sabzineh',
+    brand: 'ekazion',
     category: 'gift',
     price: 850000,
     oldPrice: 990000,
@@ -582,7 +582,7 @@ export const products = [
     sold: 940,
     reviewsCount: 95,
     image: '/images/products/gift-box-cozy.svg',
-    gallery: ['/images/lifestyle-7.svg', '/images/lifestyle-6.svg'],
+    gallery: ['/images/lifestyle/lifestyle-7.svg', '/images/lifestyle/lifestyle-6.svg'],
     description:
       'ماگ اکازیون + دفترچه مینیمال + استیکر پک طبیعت + شمع کوچک معطر؛ همه در جعبهٔ اکازیون با روبان کتان و کارت پیام دست‌نویس.',
     features: [
@@ -602,7 +602,7 @@ export const products = [
     id: 22,
     slug: 'gift-box-desk',
     name: 'باکس هدیه میز کار',
-    brand: 'sabzineh',
+    brand: 'ekazion',
     category: 'gift',
     price: 720000,
     isNew: true,
@@ -610,7 +610,7 @@ export const products = [
     sold: 260,
     reviewsCount: 19,
     image: '/images/products/gift-box-desk.svg',
-    gallery: ['/images/lifestyle-7.svg', '/images/lifestyle-4.svg'],
+    gallery: ['/images/lifestyle/lifestyle-7.svg', '/images/lifestyle/lifestyle-4.svg'],
     description:
       'برای کسی که روزهایش پشت میز می‌گذرد: دفترچه جیبی، جامدادی چوبی، استیکر دودل و جاکلیدی چوبی؛ در جعبهٔ اکازیون.',
     features: [
@@ -638,7 +638,7 @@ export const products = [
     sold: 190,
     reviewsCount: 14,
     image: '/images/products/tote-bag-cream.svg',
-    gallery: ['/images/lifestyle-6.svg', '/images/lifestyle-1.svg'],
+    gallery: ['/images/lifestyle/lifestyle-6.svg', '/images/lifestyle/lifestyle-1.svg'],
     description:
       'کیف توت کرم با دوخت دو رشته و پایهٔ چرم گیاهی؛ برای روزهایی که همه‌چیزِ لازم را می‌خواهی ببری اما سبک بمانی. داخلش یک جیب مخفی دارد.',
     features: [
@@ -665,7 +665,7 @@ export const products = [
     sold: 350,
     reviewsCount: 31,
     image: '/images/products/wallet-vegan.svg',
-    gallery: ['/images/lifestyle-6.svg', '/images/lifestyle-3.svg'],
+    gallery: ['/images/lifestyle/lifestyle-6.svg', '/images/lifestyle/lifestyle-3.svg'],
     description:
       'چرم گیاهی کاکتوسی با رنگ سبزِ خاکی؛ باریک اما جادار، با شش جای کارت و یک جای اسکناس تاشو. با استفاده، نرم‌تر و قشنگ‌تر می‌شود.',
     features: [
@@ -693,7 +693,7 @@ export const products = [
     sold: 95,
     reviewsCount: 7,
     image: '/images/products/desk-mirror.svg',
-    gallery: ['/images/lifestyle-2.svg', '/images/lifestyle-3.svg'],
+    gallery: ['/images/lifestyle/lifestyle-2.svg', '/images/lifestyle/lifestyle-3.svg'],
     description:
       'آینهٔ کوچک گرد با قاب سرامیکی و پایهٔ شیب‌دار؛ برای بین جلسه‌ها که می‌خواهی مطمئن شبی حالِ خوبی. شیشهٔ بدون اعوجاج.',
     features: [
@@ -721,7 +721,7 @@ export const products = [
     sold: 640,
     reviewsCount: 44,
     image: '/images/products/poster-set.svg',
-    gallery: ['/images/lifestyle-2.svg', '/images/lifestyle-5.svg'],
+    gallery: ['/images/lifestyle/lifestyle-2.svg', '/images/lifestyle/lifestyle-5.svg'],
     description:
       'سه پوستر A5 با طرح‌های خطی برگ و هندسهٔ نرم؛ برای دیوارِ خالی کنار میز کار. کاغذ ضخیم مات که زیر نور چراغ مطالعه خوب دیده می‌شود.',
     features: [

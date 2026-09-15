@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { setMeta } from '../lib/seo'
 import { Link } from 'react-router-dom'
 import {
   ChevronLeft,
@@ -73,7 +74,7 @@ export default function CartPage() {
   const [placedOrder, setPlacedOrder] = useState(null)
 
   useEffect(() => {
-    document.title = 'سبد خرید | اکازیون'
+    setMeta({ title: 'سبد خرید', path: '/cart' })
   }, [])
 
   const placeOrder = () => {

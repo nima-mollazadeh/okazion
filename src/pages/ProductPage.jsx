@@ -22,6 +22,7 @@ import Button from '../components/ui/Button'
 import ProductCarousel from '../components/product/ProductCarousel'
 import Reveal from '../components/ui/Reveal'
 import { discountPercent, formatPrice, toFa } from '../lib/format'
+import { setMeta, productJsonLd, setJsonLd } from '../lib/seo'
 
 const TABS = [
   { id: 'desc', label: 'توضیحات' },
@@ -159,11 +160,20 @@ export default function ProductPage() {
   const [tab, setTab] = useState('desc')
 
   useEffect(() => {
-    document.title = product
-      ? `${product.name} | اکازیون`
-      : 'محصول پیدا نشد | اکازیون'
     setQty(1)
     setTab('desc')
+    if (product) {
+      setMeta({
+        title: product.name,
+        description: product.description.slice(0, 155),
+        path: `/product/${product.slug}`,
+        image: product.image,
+      })
+      setJsonLd('ld-product', productJsonLd(product, getBrand(product.brand)?.name))
+    } else {
+      setMeta({ title: 'محصول پیدا نشد', path: location.pathname })
+      setJsonLd('ld-product', null)
+    }
   }, [slug, product])
 
   if (!product) {

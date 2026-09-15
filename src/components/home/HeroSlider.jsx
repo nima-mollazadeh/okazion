@@ -85,13 +85,13 @@ export default function HeroSlider() {
             ref={trackRef}
             className="flex snap-x snap-mandatory overflow-x-auto scrollbar-hide"
           >
-            {heroSlides.map((slide) => (
+            {heroSlides.map((slide, index) => (
               <div key={slide.id} className="w-full flex-none snap-start">
                 <div className="aspect-[16/9] overflow-hidden rounded-3xl bg-mist md:aspect-[2.4/1] lg:aspect-[2.9/1]">
                   <SmartImage
                     src={slide.image}
                     alt={slide.alt}
-                    eager
+                    eager={index === 0}
                     className="h-full w-full object-cover"
                   />
                 </div>

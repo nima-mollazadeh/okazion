@@ -1,4 +1,4 @@
-import { Suspense, lazy } from 'react'
+import { lazy } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import { ShopProvider } from './context/ShopContext'
 import Layout from './components/layout/Layout'

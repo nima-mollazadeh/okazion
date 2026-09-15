@@ -8,7 +8,8 @@ import ProductCard from '../components/product/ProductCard'
 import FilterPanel from '../components/shop/FilterPanel'
 import SortSelect, { sortOptions } from '../components/shop/SortSelect'
 import Reveal from '../components/ui/Reveal'
-import { toFa } from '../lib/format'
+import { toFa, faIncludes } from '../lib/format'
+import { setMeta } from '../lib/seo'
 
 function BottomSheet({ open, onClose, title, children, footer }) {
   useEffect(() => {
@@ -73,8 +74,15 @@ export default function ShopPage() {
   const [sortOpen, setSortOpen] = useState(false)
 
   useEffect(() => {
-    document.title = 'فروشگاه | اکازیون'
-  }, [])
+    const catName = cat ? getCategory(cat)?.name : null
+    setMeta({
+      title: catName ? `فروشگاه ${catName}` : 'فروشگاه',
+      description: catName
+        ? `خرید آنلاین ${catName} از اکازیون؛ محصولات منتخب با قیمت ویژه و ارسال سریع.`
+        : 'همهٔ محصولات اکازیون در یک صفحه؛ فیلتر دسته، برند و قیمت.',
+      path: cat ? `/shop?cat=${cat}` : '/shop',
+    })
+  }, [cat])
 
   useEffect(() => {
     setPriceDraft({ min: minPrice, max: maxPrice })
@@ -111,13 +119,11 @@ export default function ShopPage() {
   const filtered = useMemo(() => {
     let list = [...products]
     if (q.trim()) {
-      const needle = q.trim()
-      list = list.filter(
-        (p) =>
-          p.name.includes(needle) ||
-          (getBrand(p.brand)?.name ?? '').includes(needle) ||
-          (getCategory(p.category)?.name ?? '').includes(needle),
-      )
+      const match = (p) =>
+        faIncludes(p.name, q) ||
+        faIncludes(getBrand(p.brand)?.name ?? '', q) ||
+        faIncludes(getCategory(p.category)?.name ?? '', q)
+      list = list.filter(match)
     }
     if (cat) list = list.filter((p) => p.category === cat)
     if (selectedBrands.length)

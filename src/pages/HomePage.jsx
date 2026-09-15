@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { setMeta } from '../lib/seo'
 import HeroSlider from '../components/home/HeroSlider'
 import BrandShowcase from '../components/home/BrandShowcase'
 import CategoryGrid from '../components/home/CategoryGrid'
@@ -17,7 +18,11 @@ import {
 
 export default function HomePage() {
   useEffect(() => {
-    document.title = 'اکازیون | هر روز، یک فرصت تازه'
+    setMeta({
+      title: null,
+      path: '/',
+      image: '/images/hero/hero-user-1.jpg',
+    })
   }, [])
 
   return (

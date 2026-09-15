@@ -30,7 +30,7 @@ export const brands = [
     tagline: 'مجموعه‌های محدود صنایع دستی',
   },
   {
-    slug: 'sabzineh',
+    slug: 'ekazion',
     name: 'اکازیون',
     tagline: 'مجموعهٔ اختصاصی اکازیون',
     inShowcase: false,

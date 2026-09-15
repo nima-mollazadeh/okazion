@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { setMeta } from '../lib/seo'
 import {
   ChevronDown,
   Clock,
@@ -74,7 +75,11 @@ function AnchorSection({ id, icon: Icon, title, children }) {
 
 export default function AboutPage() {
   useEffect(() => {
-    document.title = 'درباره ما | اکازیون'
+    setMeta({
+      title: 'درباره ما',
+      description: 'داستان اکازیون، روش‌های ارسال، شرایط بازگشت و پاسخ به سوالات متداول.',
+      path: '/about',
+    })
   }, [])
 
   return (

@@ -12,34 +12,48 @@ import { FREE_SHIPPING_THRESHOLD, SHIPPING_COST } from '../lib/format'
 
 const ShopContext = createContext(null)
 
-const load = (key, fallback) => {
+/* خواندن از localStorage با مهاجرت خودکار از کلیدهای نسخهٔ قدیمی (سبزینه) */
+const load = (key, legacyKey, fallback) => {
   try {
-    const raw = localStorage.getItem(key)
+    let raw = localStorage.getItem(key)
+    if (raw === null && legacyKey) {
+      raw = localStorage.getItem(legacyKey)
+      if (raw !== null) localStorage.setItem(key, raw)
+    }
     return raw ? JSON.parse(raw) : fallback
   } catch {
     return fallback
   }
 }
 
+const persist = (key, value) => {
+  try {
+    localStorage.setItem(key, JSON.stringify(value))
+  } catch {
+    /* حالت مرور خصوصی یا پر بودن فضا — نادیده می‌گیریم */
+  }
+}
+
+const CART_KEY = 'ekazion-cart'
+const FAVORITES_KEY = 'ekazion-favorites'
+
 export function ShopProvider({ children }) {
-  const [cart, setCart] = useState(() => load('sabzineh-cart', []))
+  const [cart, setCart] = useState(() =>
+    load(CART_KEY, 'sabzineh-cart', []),
+  )
   const [favorites, setFavorites] = useState(() =>
-    load('sabzineh-favorites', []),
+    load(FAVORITES_KEY, 'sabzineh-favorites', []),
   )
   const [cartOpen, setCartOpen] = useState(false)
   const [toasts, setToasts] = useState([])
   const toastId = useRef(0)
 
   useEffect(() => {
-    try {
-      localStorage.setItem('sabzineh-cart', JSON.stringify(cart))
-    } catch {}
+    persist(CART_KEY, cart)
   }, [cart])
 
   useEffect(() => {
-    try {
-      localStorage.setItem('sabzineh-favorites', JSON.stringify(favorites))
-    } catch {}
+    persist(FAVORITES_KEY, favorites)
   }, [favorites])
 
   const pushToast = useCallback((message, icon = 'check') => {

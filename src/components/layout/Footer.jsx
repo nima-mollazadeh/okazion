@@ -27,7 +27,7 @@ export default function Footer() {
     e.preventDefault()
     const input = e.currentTarget.querySelector('input')
     if (input.value.trim()) {
-      pushToast('ایمیل شما با موفقیت ثبت شد')
+      pushToast('این بخش در نسخهٔ نمایشی فعال است — از همراهی‌تان ممنونیم')
       input.value = ''
     }
   }
